@@ -1,0 +1,38 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    width: 400px;
+    align-items: center;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 370px;
+    
+}
+h2{
+    width: 40%;
+}
+.like{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 60%;
+    align-items: center;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+button{
+    width: 70px;
+    margin-left: 30px;
+    height: 30px;
+    background-color: rgb(207, 207, 59);
+    box-shadow: 2px 5px;
+}
