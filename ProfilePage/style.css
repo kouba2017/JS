@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+.container{
+    margin: 0 auto;
+}
+/*Header Styling*/
+.header{
+    background-color: rgb(51,51,51);
+    color: aliceblue;
+    height: 70px;
+    display : flex;
+    justify-content: space-around;
+    /*flex-direction: row;*/
+    align-items: center;
+    padding: 10px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-links{
+    display: flex;
+    margin: 15px;
+}
+.nav-links>li{
+    list-style-type: none;
+}
+.nav-links>li>a{
+    font-size: 26px;
+    text-decoration:none  ;
+    color: aliceblue;
+    margin: 10px;
+}
+
+.btn{
+    list-style-type: none;
+    background-color: rgb(23,162,184);
+    color: #ffffff;
+    font-size: 30px;
+    width: 150px;
+    height: 40px;
+    border: 3px solid black;
+    box-shadow: 2px 4px rgb(0, 0, 0);
+    margin-left: 10px;
+}
+/*----Content Styling------*/
+.content{
+    display: flex;    
+    margin: 30px;
+    justify-content: center;
+}
+/*----LeftSide-----*/
+.leftbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 900px;
+}
+/*----UserCard --*/
+#usercard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 470px;
+    margin: 30px;
+    border: 5px solid gainsboro;
+    border-top: #ffffff;
+}
+#cont1{
+    background-color: rgb(23,162,184);
+    display: flex;
+    width: 710px;
+    height: 120px;
+}
+#cont2{
+    display: flex;
+    align-items: center;
+    width: 620px;
+    height: 210px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+
+}
+#profph{
+    height: 60%;
+    border-color:rgb(184, 178, 172);
+    margin-top: -50px;
+    border-radius: 50%;
+}
+h1{
+    font-size: 47px;
+}
+h2>img{
+    height: 30%;
+
+}
+.bio{
+    margin-top: -20px;
+    font-size: 20px;
+}
+.settings>img{
+    height: 20%;
+}
+.settings{
+    color: blue;
+    font-size: large;
+    text-decoration: underline;
+}
+/*---Education card--*/
+#educard{
+    margin: 30px;
+    height: 200px;
+    width: 710px;
+}
+#top{
+    background-color: rgb(51, 51, 51);
+    color: #ffffff;
+    padding: 10px ;
+    padding-left: 35px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#buttom{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border: 5px solid gainsboro;
+    border-top: #ffffff;
+}
+#buttom>h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#buttom>h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(145,145,145);
+}
+#buttom>p{
+    font-size: larger;
+}
+/*-----RightSide----*/
+.rightbar{
+    display: flex;
+    flex-direction: column;
+
+}
+#Request{
+    width: 380px;
+    margin: 25px;
+    height: 300px;
+
+}
+#buttomR{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 8px;
+    border: 5px solid gainsboro;
+    border-top: #ffffff;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+#circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(204,204,204);
+    text-align: center;
+    color:rgb(51, 51, 51) ;
+    margin-right: 10px;
+}
+#userimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+#oval{
+    width: 100px;
+    height: 50px;
+    background: rgb(204,204,204);
+    border-radius: 50px / 25px;
+    text-align: center;
+    color:rgb(51, 51, 51) ;
+    margin-right: 10px;
+}
+#link{
+    font-size: 25px;
+    padding: 20px;
+    border: 5px solid gainsboro;
+    border-top: #ffffff;
+}
+
+

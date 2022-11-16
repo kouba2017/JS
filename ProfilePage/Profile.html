@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="nav-title">
+                <h1 class="nav-title">Profile</h1>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">My Profile</a></li>
+                    <li><a href="#">Find Connections</a></li>
+            </div>
+            <button class="btn">Sign Out</button>
+            </ul>
+        </header>
+        <main class="content">
+            <div class="leftbar">
+                <div id="usercard">
+                        <div id="cont1"></div>
+                        <div id="cont2">
+                            <img id="profph" src="images\jane-m.jpg" >
+                            <h1 id="profname">Jane Doe</h1>
+                            <h2><img src="icons\map-marker.png">   Seattle</h2>
+                            <p class="bio">Developer | Engineer | Problem Solver<br> Master of shadows and the Internet! 
+                            </p>
+                            <a class="settings" href="#" ><img onclick="change()" src="icons\gear.png">  edit profile</a>
+                        </div>
+                </div>
+                <div id="educard">
+                    <h2 id="top">Education</h2>
+                    <div id="buttom">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3>Dec 2019 - Mar 2020</h3>
+                        <p>Triple black belt in Python, MERNn, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbar">
+                <div id="Request">
+                    <div id="top">
+                        <h2 id="circle">2</h2> 
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <div id="buttomR">
+                        <div class="user">
+                            <div class="right">
+                                <img id="userimg" src="images\todd-s.jpg" alt=""> 
+                                <h2>Todd E</h2>
+                            </div>
+                            <div class="left">
+                                <img onclick="none(this)" id="accept"  class="icons" src="icons\accept-circle.png" >
+                                <img onclick="none(this)" class="icons" src="icons\close-circle.png" >
+                            </div>
+                        </div>
+                        <div class="user">
+                            <div class="right">
+                                <img id="userimg" src="images\phil-s.jpg" alt="">
+                                <h2>Phil K</h2>
+                            </div>
+                            <div>
+                                <img onclick="none(this)" class="icons" id="accept" src="icons\accept-circle.png" alt="">
+                                <img onclick="none(this)" class="icons" src="icons\close-circle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Request">
+                    <div id="top">
+                        <h2 id="oval">500</h2>
+                        <h2>Your Connections</h2>
+                    </div>
+                    <div id="buttomR">
+                        <div class="right" >
+                            <img id="userimg" src="images\adrien-s.jpg" >
+                            <h2>  Adrien D</h2>
+                        </div>
+                        <div class="right">
+                            <img id="userimg" src="images\anne-s.jpg" >
+                            <h2> Anne J</h2>
+                        </div>
+                        <div class="right">
+                            <img id="userimg" src="images\alayne-s.jpg" >
+                            <h2>  Alayne T</h2>
+                        </div>
+                        <div class="right">
+                            <img id="userimg" src="images\arry-s.jpg" > 
+                            <h2> Arry Y</h2>
+                        </div>
+                            
+                    </div>
+                    <div id="link">
+                        <a  href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
