@@ -48,11 +48,14 @@ body{
     font-size: 50px;
 }
 #temp{
-    font-size: 25px;
+    font-size: 30px;
 }
 #temperature{
     width: 80px;
     height: 50px;
+}
+#temperature,.unity{
+    font-size: 25px;
 }
 /*How to change the inside of the select box font size and make a line in the middle*/
 .forecast{
