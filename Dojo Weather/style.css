@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color:rgb(159,197,248) ;
+    color:rgb(255,255,255) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+    font-size: 50px;
+    margin: 14px;
+}
+.places{
+    display: flex;
+}
+.places>a{
+    margin: 20px;
+    font-size:30px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.location{
+    margin: 25px;
+    
+    width: 1750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom:25px ;
+    border-bottom: 5px solid black ;
+}
+#local{
+    font-size: 50px;
+}
+#temp{
+    font-size: 25px;
+}
+#temperature{
+    width: 80px;
+    height: 50px;
+}
+/*How to change the inside of the select box font size and make a line in the middle*/
+.forecast{
+    display: flex;
+    justify-content: center;
+    width: 1750px;
+}
+.details{
+    flex: 1;
+    background-color:rgb(238,238,238) ;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    height: 700px;
+    justify-content: space-between;
+}
+#d1{
+    margin-left: 0;
+}
+#d4{
+    margin-right: 0;
+}
+.prediction{
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+}
+.min{
+    margin-left: 90px;
+    color: rgb(58,129,228);
+}
+.max{
+    color:rgb(207,44,41);
+}
+.weather{
+    width: 300px;
+    border-radius: 50%;
+}
+.date{
+    font-size: 50px;
+}
+.comment{
+    font-size: 45px;
+    font-weight: 400;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+}
+.window{
+    height: 170px;
+    width: 1740px;
+    padding: 10px;
+    background-color:rgb(238,238,238) ;
+    position:fixed;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    border: 5px solid black;
+    justify-content: space-between;
+    
+}
+.comt{
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    margin: 10px;
+}
+.comt>img{
+    margin: 40px;
+    width: 200px;
+    height: 150px;
+}
+#text>p{
+    font-size: 30px;
+}
+#text>h2{
+    font-size: 40px;
+}
+.btn{
+    width: 220px;
+    height: 70px;
+    margin: 40px;
+    font-size: 30px;
+    box-shadow: 4px 5px black;
+    border: 3px solid black;
+    font-weight: 600;
+    background-color: rgb(159,197,248);
+}
